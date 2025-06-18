@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TanamanKu | Keranjang Belanja</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--navbar-->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark main-color">
+        <div class="container-fluid">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <a class="navbar-brand me-auto active" href="index.html">TanamanKu</a>
+                <ul class="navbar-nav">
+                    <li class="nav-item me-5">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item me-5">
+                        <a class="nav-link" href="produk.html">Produk</a>
+                    </li>
+                    <li class="nav-item me-5">
+                        <a class="nav-link" href="promo.html">Promo</a>
+                    </li>
+                    <li class="nav-item me-5">
+                        <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true"><i
+                                class="bi bi-cart"></i>Keranjang</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--table-->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <h3 class="text-center my-5">Keranjang Belanja</h3>
+
+            <div class="table-responsive">
+                <table class="table">
+                    <tr>
+                        <th>#</th>
+                        <th>Pesanan</th>
+                        <th>Harga</th>
+                        <th>Jumlah</th>
+                        <th>Total</th>
+                    </tr>
+                    <tr style="vertical-align: middle;">
+                        <td><img src="image/2.jpg" class="img-thumbnail d-none d-sm-block" width="150px" alt="">
+                            <label class="d-block d-sm-none">Lidah Flamingo</label>
+                        </td>
+                        <td>Lidah Flamingo</td>
+                        <td>Rp 80.000</td>
+                        <td>1</td>
+                        <td>Rp 80.000</td>
+                    </tr>
+                    <tr style="vertical-align: middle;">
+                        <td><img src="image/8.jpg" class="img-thumbnail d-none d-sm-block" width="150px" alt="">
+                            <label class="d-block d-sm-none">Calathea Pinstripe</label>
+                        </td>
+                        <td>Calathea Pinstripe</td>
+                        <td>Rp 50.000</td>
+                        <td>2</td>
+                        <td>Rp 100.000</td>
+                    </tr>
+                    <tr style="vertical-align: middle;">
+                        <td><img src="image/12.jpg" class="img-thumbnail d-none d-sm-block" width="150px" alt="">
+                            <label class="d-block d-sm-none">Kaktus</label>
+                        </td>
+                        <td>Kaktus</td>
+                        <td>Rp 70.000</td>
+                        <td>1</td>
+                        <td>Rp 70.000</td>
+                    </tr>
+                    <tr>
+                        <th colspan="4">Total</th>
+                        <th>Rp 250.000</th>
+                    </tr>
+                </table>
+            </div>
+
+            <button class="btn btn-warning text-light">Checkout</button>
+
+        </div>
+    </div>
+
+    <!--subscribe-->
+    <div class="container-fluid py-5 content-subscribe text-light">
+        <div class="container">
+            <h5 class="text-center mb-4">Hubungi Kami</h5>
+            <div class="row justify-content-center">
+                <div class="col-sm-1 d-flex justify-content-center mb-2">
+                    <i class="bi bi-facebook fs-5"></i>
+                </div>
+
+                <div class="col-sm-1 d-flex justify-content-center mb-2">
+                    <i class="bi bi-instagram fs-5"></i>
+                </div>
+
+                <div class="col-sm-1 d-flex justify-content-center">
+                    <i class="bi bi-twitter fs-5"></i>
+                </div>
+            </div>
+
+            <h5 class="text-center mt-4 mb-0">Subscribe</h5>
+            <p class="text-center font-monospace">Informasi Tentang Promo</p>
+
+            <div class="col-md-8 offset-md-2 col-lg-6 offset-lg-3">
+                <div class="input-group mb-1">
+                    <input type="text" class="form-control" placeholder="Masukkan Email" aria-label="Masukkan Email"
+                        aria-describedby="button-addon2">
+                    <button class="btn btn-outline-secondary btn-warning text-light" type="button"
+                        id="button-addon2">Subscribe</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!--footer-->
+    <div class="container-fluid py-3 bg-dark text-light">
+        <div class="container d-flex justify-content-between">
+            <label>&copy;2025 TanamanKu</label>
+            <label>created by rizky aulia cantik jelita</label>
+        </div>
+    </div>
+    
+    <script src="bootstrap.js"></script>
+</body>
+
+</html>

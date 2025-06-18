@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TanamanKu | Promo</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--navbar-->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark main-color">
+        <div class="container-fluid">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <a class="navbar-brand me-auto active" href="index.html">TanamanKu</a>
+                <ul class="navbar-nav">
+                    <li class="nav-item me-5">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item me-5">
+                        <a class="nav-link" href="produk.html">Produk</a>
+                    </li>
+                    <li class="nav-item me-5">
+                        <a class="nav-link  active" href="#">Promo</a>
+                    </li>
+                    <li class="nav-item me-5">
+                        <a class="nav-link" href="cart.html" tabindex="-1" aria-disabled="true"><i
+                                class="bi bi-cart"></i>Keranjang</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--banner-->
+    <div class="container-fluid banner2 d-flex align-items-center">
+        <div class="container">
+            <h3 class="text-light text-center mb-3">Semua Promo Buat Anda</h3>
+        </div>
+    </div>
+
+    <!--promo-->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <!--kategori promo-->
+            <div class="row justify-content-center mb-3">
+                <div class="col-sm-4 col-md-3 col-lg-2 mb-3">
+                    <button id="semuaPromoBtn" onclick="showAll()"
+                        class="btn btn-outline-warning w-100 fs-5 active">Semua Promo</button>
+                </div>
+
+                <div class="col-sm-4 col-md-3 col-lg-2 mb-3">
+                    <button id="diskonPromoBtn" onclick="showDiskon()" class="btn btn-outline-warning w-100 fs-5">Promo
+                        Diskon</button>
+                </div>
+
+                <div class="col-sm-4 col-md-3 col-lg-2 mb-3">
+                    <button id="bonusPromoBtn" onclick="showBonus()" class="btn btn-outline-warning w-100 fs-5">Promo
+                        Bonus</button>
+                </div>
+            </div>
+
+            <!--isi promo-->
+            <!--semua promo-->
+            <div id="semuaPromo">
+                <div class="row justify-content-center">
+                    <div class="col-sm-6 col-lg-3 hovered-card mg-3 mb-3">
+                        <div class="card">
+                            <img src="image/4.jpg" class="card-img-top w-100" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Buy 1 Get 1</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo,
+                                    nobis.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-3 hovered-card mg-3 mb-3">
+                        <div class="card">
+                            <img src="image/mint.jpg" class="card-img-top w-100" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Mint Diskon 20%</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo,
+                                    nobis.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-3 hovered-card mg-3 mb-3">
+                        <div class="card">
+                            <img src="image/strawberryy.jpg" class="card-img-top w-100" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Strawberry Diskon 45%</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo,
+                                    nobis.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-3 hovered-card mg-3 mb-3">
+                        <div class="card">
+                            <img src="image/5.jpg" class="card-img-top w-100" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Alokasia Diskon 10%</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo,
+                                    nobis.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-3 hovered-card mg-3 mb-3">
+                        <div class="card">
+                            <img src="image/8.jpg" class="card-img-top w-100" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Gratis benih Calathea Pinstripe</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo,
+                                    nobis.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-3 hovered-card mg-3 mb-3">
+                        <div class="card">
+                            <img src="image/9.jpg" class="card-img-top w-100" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Gratis benih Aglaonema Pink Dalmatian</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo,
+                                    nobis.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!--promo diskon-->
+            <div id="promoDiskon">
+                <div class="row justify-content-center">
+                    <div class="col-lg-3 hovered-card mg-3 mb-3">
+                        <div class="card">
+                            <img src="image/3.jpg" class="card-img-top w-100" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Buy 1 Get 1</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo,
+                                    nobis.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 hovered-card mg-3 mb-3">
+                        <div class="card">
+                            <img src="image/10.jpg" class="card-img-top w-100" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Buy 1 Get 1</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo,
+                                    nobis.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 hovered-card mg-3 mb-3">
+                        <div class="card">
+                            <img src="image/1.jpg" class="card-img-top w-100" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Buy 1 Get 1</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo,
+                                    nobis.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!--promo bonus-->
+            <div id="promoBonus">
+                <div class="row justify-content-center">
+                    <div class="col-lg-3 hovered-card mg-3 mb-3">
+                        <div class="card">
+                            <img src="image/12.jpg" class="card-img-top w-100" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Buy 1 Get 1</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo,
+                                    nobis.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 hovered-card mg-3 mb-3">
+                        <div class="card">
+                            <img src="image/7.jpg" class="card-img-top w-100" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Buy 1 Get 1</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo,
+                                    nobis.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 hovered-card mg-3 mb-3">
+                        <div class="card">
+                            <img src="image/6.jpg" class="card-img-top w-100" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Buy 1 Get 1</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo,
+                                    nobis.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!--subscribe-->
+    <div class="container-fluid py-5 content-subscribe text-light">
+        <div class="container">
+            <h5 class="text-center mb-4">Hubungi Kami</h5>
+            <div class="row justify-content-center">
+                <div class="col-sm-1 d-flex justify-content-center mb-2">
+                    <i class="bi bi-facebook fs-5"></i>
+                </div>
+
+                <div class="col-sm-1 d-flex justify-content-center mb-2">
+                    <i class="bi bi-instagram fs-5"></i>
+                </div>
+
+                <div class="col-sm-1 d-flex justify-content-center">
+                    <i class="bi bi-twitter fs-5"></i>
+                </div>
+            </div>
+
+            <h5 class="text-center mt-4 mb-0">Subscribe</h5>
+            <p class="text-center font-monospace">Informasi Tentang Promo</p>
+
+            <div class="col-md-8 offset-md-2 col-lg-6 offset-lg-3">
+                <div class="input-group mb-1">
+                    <input type="text" class="form-control" placeholder="Masukkan Email" aria-label="Masukkan Email"
+                        aria-describedby="button-addon2">
+                    <button class="btn btn-outline-secondary btn-warning text-light" type="button"
+                        id="button-addon2">Subscribe</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!--footer-->
+    <div class="container-fluid py-3 bg-dark text-light">
+        <div class="container d-flex justify-content-between">
+            <label>&copy;2025 TanamanKu</label>
+            <label>created by rizky aulia cantik jelita</label>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script>
+        var btnSemuaPromo = $("#semuaPromoBtn");
+        var btnDiskonPromo = $("#diskonPromoBtn");
+        var btnBonusPromo = $("#bonusPromoBtn");
+
+        var semuaPromoView = $("#semuaPromo");
+        var diskonPromoView = $("#promoDiskon");
+        var bonusPromoView = $("#promoBonus");
+
+        diskonPromoView.hide();
+        bonusPromoView.hide();
+
+        function showAll() {
+            btnDiskonPromo.removeClass('active');
+            btnBonusPromo.removeClass('active');
+            btnSemuaPromo.addClass('active');
+
+            diskonPromoView.hide(1000);
+            bonusPromoView.hide(1000);
+            semuaPromoView.show(1000);
+        }
+
+        function showDiskon() {
+            btnSemuaPromo.removeClass('active');
+            btnBonusPromo.removeClass('active');
+            btnDiskonPromo.addClass('active');
+
+            semuaPromoView.hide(1000);
+            bonusPromoView.hide(1000);
+            diskonPromoView.show(1000);
+        }
+
+        function showBonus() {
+            btnSemuaPromo.removeClass('active');
+            btnDiskonPromo.removeClass('active');
+            btnBonusPromo.addClass('active');
+
+            semuaPromoView.hide(1000);
+            diskonPromoView.hide(1000);
+            bonusPromoView.show(1000);
+        }
+
+    </script>
+
+</body>
+
+</html>
